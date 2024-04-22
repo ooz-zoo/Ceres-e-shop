@@ -1,0 +1,33 @@
+.sales-report {
+  margin-top: 20%;
+}
+
+.sales-report table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-bottom: 10%;
+}
+
+.sales-report-title{
+  margin-bottom: 5%;
+}
+
+.sales-report th,
+.sales-report td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.sales-report th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.sales-report tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sales-report tr:hover {
+  background-color: #ddd;
+}

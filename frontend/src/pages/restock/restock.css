@@ -1,0 +1,43 @@
+.restock-form {
+    width: 100%;
+    max-width: 400px; /* Set maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin-top: 10%;
+}
+
+.restock-form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 10px; /* Add margin bottom */
+}
+
+.restock-form input,
+.restock-form select {
+    width: 100%; /* Set input and select width to 100% */
+    padding: 8px; /* Add padding */
+    margin-bottom: 10px; /* Add margin bottom */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.restock-form button {
+    width: 100%; /* Set button width to 100% */
+    padding: 10px; /* Add padding */
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+.restock-form button:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}
+
+.navbar {
+    margin-top: -51%;
+    width: 252.6%;
+    margin-left: -85%;
+}

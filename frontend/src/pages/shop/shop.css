@@ -1,0 +1,69 @@
+.shop {
+  height: 87vh; /* Set the height of the shop container to 87% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px; /* Add padding to the left and right edges */ 
+  
+}
+
+.shopTitle {
+  /* margin-top: 30px; */
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20%;
+  
+}
+
+.products {
+  width: 80%; /* Set the width of the products container to 100% */
+  max-width: 1800px; /* Set a maximum width to prevent it from spanning too wide */
+  margin: 0 -20px; /* Adjust the margins to make the products reach the left and right edges */
+  display: grid;
+  height:70vh;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted grid-template-columns */
+  gap: 100px; /* Add some gap between grid items */
+  justify-content: center;
+}
+
+.product {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 15px; */
+}
+
+.product img {
+  width: 150%; /* Ensure the image takes up the full width of its container */
+  max-width: 300px; /* Limit the maximum width of the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  border-radius: 15px;
+  color: black;
+}
+
+.addToCartBttn:hover {
+  background-color: #73b843;
+  color: white;
+  cursor: pointer;
+}

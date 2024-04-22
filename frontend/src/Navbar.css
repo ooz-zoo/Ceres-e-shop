@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav a {
+  font-size: 18px;
+  color: white;
+}
+
+/* Centering the logo */
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centering the navbar links */
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusting margin for the buttons */
+.buttons {
+  margin-left: auto;
+}
+
+/* Optional: Adjusting padding for the navbar */
+/* .navbar {
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+/* } */

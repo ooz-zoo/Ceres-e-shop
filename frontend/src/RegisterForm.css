@@ -1,0 +1,105 @@
+/* Apply general styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: url("./components/images/juice1.jpg"); */
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+@keyframes colorAnimation {
+  0% {
+    color: #27ae60;
+  }
+  50% {
+    color: #f39c12;
+  }
+  100% {
+    color: #e74c3c;
+  }
+}
+
+h2 {
+  text-align: center;
+  color: #27ae60;
+  margin-bottom: 20px;
+  animation: colorAnimation 5s infinite alternate;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218c56;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #f9a602;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
