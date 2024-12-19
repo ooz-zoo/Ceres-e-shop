@@ -1,4 +1,4 @@
-# E-shop for Ceres juice products
+# Ecommerce-shop for Ceres juice products
 
 # Screens
 ![image](https://github.com/ooz-zoo/Ceres-e-shop/assets/111248086/fa83acab-6b27-4f4d-ae83-d60be6d929ad)
